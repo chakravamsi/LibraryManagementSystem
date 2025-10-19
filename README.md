@@ -89,8 +89,6 @@ It supports login/registration for **Admin and Student/Staff** roles and manages
 | Server      | Apache Tomcat                       |
 | Pattern     | MVC (Servlets + DAO + HTML/JS)      |
 
----
 
-## 📂 Project Structure
 
 
