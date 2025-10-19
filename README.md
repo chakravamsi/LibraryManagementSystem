@@ -1,49 +1,52 @@
-📚 Library Management System
+# 📚 Library Management System
 
-A web-based Library Management System built using Java (Servlets), MySQL, HTML, CSS, and JavaScript (Fetch API). It supports authentication for Admin and Student/Staff users and handles book inventory, issue/return process, fines, and book request workflows.
+A web-based Library Management System built using **Java, Servlets, MySQL, HTML, CSS, and JavaScript**.  
+It supports secure login/registration for **Admin and Student/Staff** roles and manages books, members, issuing/returning, fines, and transaction history.
 
-✅ Features
-👨‍💼 Admin Features:
+---
 
-Login authentication for admin.
+## ✅ Features
 
-Dashboard showing total books, issued books, members, active transactions, and fines.
+### 👨‍💼 Admin Module
+- Login authentication for admin.
+- Dashboard showing total books, issued books, total members, active transactions, and fines.
+- Add, edit, delete books and update book quantity.
+- Add, edit, delete student/staff members.
+- Search books and members by name, ID, category, etc.
+- Accept or reject book requests from students/staff.
+- View complete transaction history (issued/returned books and fines).
 
-Add, edit, delete books and update quantity.
+### 👩‍🎓 Student/Staff Module
+- User registration and login.
+- View available books and search by book name, author, or category.
+- Send book request to admin.
+- View request status: Pending / Approved / Rejected.
+- View list of borrowed books and due dates.
+- Logout securely.
 
-Add, edit, delete student/staff members.
+---
 
-Search books and members using filters/details.
+## 💡 Fine Calculation Rules
 
-View, approve, or reject book requests.
+| User Type   | Fine Policy                        |
+|-------------|-------------------------------------|
+| Student     | ₹5 per day after 14 days of issue   |
+| Staff       | ₹5 per day after 30 days of issue   |
 
-View complete transaction history (issued, returned books, fines).
+Fine is calculated automatically during book return or when viewing transaction history.
 
-👩‍🎓 Student/Staff Features:
+---
 
-User registration and login.
+## 🛠️ Tech Stack
 
-View available books and search by name, author, category, etc.
+| Layer       | Technology Used                     |
+|-------------|--------------------------------------|
+| Frontend    | HTML, CSS, JavaScript (Fetch API)   |
+| Backend     | Java Servlets                       |
+| Database    | MySQL                               |
+| Server      | Apache Tomcat                       |
+| Architecture| MVC (Servlets + DAO + HTML/JS)      |
 
-Send book request to admin.
 
-View request status: Pending / Approved / Rejected.
 
-View issued books and due dates.
 
-Logout anytime.
-
-💡 Fine Calculation System
-User Type	Fine Rule
-Student	₹5/day after 14 days from issue
-Staff	₹5/day after 30 days from issue
-
-Fine is calculated automatically during return or in transaction records.
-
-🛠️ Tech Stack
-Component	Technology Used
-Frontend	HTML, CSS, JavaScript (Fetch API)
-Backend	Java Servlets
-Database	MySQL
-Server	Apache Tomcat
-Architecture	MVC (Servlets + DAO + HTML/JS)
