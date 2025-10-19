@@ -25,17 +25,17 @@ It supports login/registration for **Admin and Student/Staff** roles and manages
 
 ---
 
-### 📚 Book & Member Management
+### 📚 Member Management
 
-| Add/Edit Book | Manage Members |
+| Manage members | Transaction History |
 |---------------|----------------|
 | ![Book Form](./library5.png) | ![Members](./library6.png) |
 
 ---
 
-### ✅ Book Requests & Transactions
+### ✅ Book Requests 
 
-| Book Requests | Transaction History |
+| Book Requests |  |
 |---------------|----------------------|
 | ![Requests](./library7.png) | ![Transactions](./library8.png) |
 
