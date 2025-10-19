@@ -1,43 +1,85 @@
 # 📚 Library Management System
 
 A web-based Library Management System built using **Java, Servlets, MySQL, HTML, CSS, and JavaScript**.  
-It supports secure login/registration for **Admin and Student/Staff** roles and manages books, members, issuing/returning, fines, and transaction history.
+It supports login/registration for **Admin and Student/Staff** roles and manages books, members, issuing/returning, requests, fines, and transaction history.
+
+---
+
+## 🖼️ Project Screenshots
+
+
+
+### 🔐 Login & Registration
+
+| Login Page | Registration Page |
+|------------|--------------------|
+| ![Login](./library1.png) | ![Register](./library2.png) |
+
+---
+
+### 🧑‍💼 Admin Dashboard
+
+| Dashboard Overview | Book Management |
+|--------------------|------------------|
+| ![Admin Dashboard](./library3.png) | ![Manage Books](./library4.png) |
+
+---
+
+### 📚 Book & Member Management
+
+| Add/Edit Book | Manage Members |
+|---------------|----------------|
+| ![Book Form](./library5.png) | ![Members](./library6.png) |
+
+---
+
+### ✅ Book Requests & Transactions
+
+| Book Requests | Transaction History |
+|---------------|----------------------|
+| ![Requests](./library7.png) | ![Transactions](./library8.png) |
+
+---
+
+### 👩‍🎓 Student/Staff Panel
+
+| Available Books | My Borrowed Books |
+|------------------|-------------------|
+| ![Available Books](./library9.png) | ![Borrowed Books](./library10.png) |
 
 ---
 
 ## ✅ Features
 
-### 👨‍💼 Admin Module
-- Login authentication for admin.
-- Dashboard showing total books, issued books, total members, active transactions, and fines.
-- Add, edit, delete books and update book quantity.
-- Add, edit, delete student/staff members.
-- Search books and members by name, ID, category, etc.
-- Accept or reject book requests from students/staff.
-- View complete transaction history (issued/returned books and fines).
+### 👨‍💼 Admin:
+- Secure login.
+- Dashboard: total books, issued books, members, active transactions, fines.
+- Add/edit/delete books & update quantity.
+- Add/edit/delete members.
+- Search books or members by ID/name.
+- Approve or reject book requests.
+- View transaction history and fines.
 
-### 👩‍🎓 Student/Staff Module
-- User registration and login.
-- View available books and search by book name, author, or category.
-- Send book request to admin.
-- View request status: Pending / Approved / Rejected.
-- View list of borrowed books and due dates.
+### 👩‍🎓 Student/Staff:
+- Registration & login.
+- Search and view available books.
+- Send book issue requests.
+- Track request status: Pending/Approved/Rejected.
+- View issued books and due dates.
 - Logout securely.
 
 ---
 
-## 💡 Fine Calculation Rules
+## 💡 Fine Policy
 
-| User Type   | Fine Policy                        |
-|-------------|-------------------------------------|
-| Student     | ₹5 per day after 14 days of issue   |
-| Staff       | ₹5 per day after 30 days of issue   |
-
-Fine is calculated automatically during book return or when viewing transaction history.
+| User Type   | Fine Rule                        |
+|-------------|-----------------------------------|
+| Student     | ₹5 per day after 14 days         |
+| Staff       | ₹5 per day after 30 days         |
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
 | Layer       | Technology Used                     |
 |-------------|--------------------------------------|
@@ -45,8 +87,10 @@ Fine is calculated automatically during book return or when viewing transaction 
 | Backend     | Java Servlets                       |
 | Database    | MySQL                               |
 | Server      | Apache Tomcat                       |
-| Architecture| MVC (Servlets + DAO + HTML/JS)      |
+| Pattern     | MVC (Servlets + DAO + HTML/JS)      |
 
+---
 
+## 📂 Project Structure
 
 
