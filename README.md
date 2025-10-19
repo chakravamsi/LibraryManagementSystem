@@ -35,9 +35,9 @@ It supports login/registration for **Admin and Student/Staff** roles and manages
 
 ### ✅ Book Requests 
 
-| Book Requests |  |
+| Book Requests | Pending requests |
 |---------------|----------------------|
-| ![Requests](./library7.png) | ![Transactions](./library8.png) |
+| ![Requests](./library7.png) | ![Borrowed Books](./library10.png) |
 
 ---
 
@@ -45,7 +45,7 @@ It supports login/registration for **Admin and Student/Staff** roles and manages
 
 | Available Books | My Borrowed Books |
 |------------------|-------------------|
-| ![Available Books](./library9.png) | ![Borrowed Books](./library10.png) |
+|![Transactions](./library8.png)) | ![Available Books](./library9.png) |
 
 ---
 
